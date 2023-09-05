@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD.Logics", "TDD.Logics\TD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD.WebApplication", "TDD.WebApplication\TDD.WebApplication.csproj", "{3688F598-E0D9-4CBE-ACBD-E4CC1E381F2F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{368BDB41-B780-4C93-A30C-75C4C97B3415}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
