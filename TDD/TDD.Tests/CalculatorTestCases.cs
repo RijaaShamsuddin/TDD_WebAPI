@@ -1,12 +1,12 @@
-using TDD.Logics;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using TDD.Logics.Contracts;
+using TDD.Logics.Services;
 
 namespace TDD.Tests
 {
     [TestClass]
     public class CalculatorTestCases
     {
-        private ICalculator _calculator = new Calculator();
+        private ICalculator _calculator = new CalculatorService();
 
         [TestMethod]
         public void Should_Add_Number()

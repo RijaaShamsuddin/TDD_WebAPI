@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TDD.Logics
+namespace TDD.Logics.Contracts
 {
     public interface ICalculator
     {

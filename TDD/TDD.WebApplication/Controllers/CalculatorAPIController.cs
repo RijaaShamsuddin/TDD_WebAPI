@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TDD.Logics;
+using TDD.Logics.Contracts;
+using TDD.Logics.Services;
 
 namespace TDD.WebApplication.Controllers
 {
@@ -11,7 +12,7 @@ namespace TDD.WebApplication.Controllers
 
         public CalculatorAPIController()
         {
-            _calculator = new Calculator();
+            _calculator = new CalculatorService();
         }
 
         [HttpGet("api/calculator/add/{num1}/{num2}")]
